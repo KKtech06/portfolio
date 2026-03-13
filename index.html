@@ -1,51 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Karim | Portfolio</title>
+    <title>Karim M'hamdi | Aspiring Software Engineer</title>
+    <meta name="description"
+        content="Portfolio of Karim M'hamdi, a software development student and aspiring software engineer." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
-    <h1>Karim Mhamdi</h1>
-    <h2>Junior web developer Learner</h2>
-    <img src="https://media.licdn.com/dms/image/v2/D4E03AQEHGiPZtxEIsA/profile-displayphoto-shrink_800_800/B4EZOYFIdEH0As-/0/1733423303490?e=1767225600&v=beta&t=HOLjxRUwqDfvl7DIT8pjjFsfeEUTr5pWtqmlLaPrVRs"alt="my photo"width="200" class="right-img">
-    
-    <h3 class="capitals">About me:</h3>
-    <ul>
-        <li>Aspiring IT and software development learner</li>
-        <li>Building a foundation through small projects using HTML and CSS</li>
-        <li>Continuously developing my skills toward future opportunities in tech</li>
-    </ul>
-    <h4 class="capitals">Skills:</h4>
-    <h5>HTML:</h5>
-    <ul>
-        <li>Page structure (html, head, body)</li>
-        <li>Headings and text content</li>
-        <li>Links and images</li>
-        <li>Lists (ordered and unordered)</li>
-        <li>Basic forms (inputs and labels)</li>
-        <li>Accessibility basics (alt text, clear structure)</li>
-    </ul>
-    <h6>CSS:</h6>
-    <ul>
-        <li>Basic styling (colors, fonts, spacing)</li>
-        <li>CSS selectors (elements and classes)</li>
-        <li>Box model (margin, padding, border)</li>
-        <li>Simple page layouts</li>
-        <li>Basic positioning</li>
-    </ul>
-    <h7 class="capitals">Projects:</h7>
-    <a href="https://codepen.io/Thor66-pk/pen/myPWNWK"alt="Japan webpage">Japan webpage</a>
-    
-    <h8 class="capitals">Contacts</h8>
-    <a href="karim1020@outlook.it"alt="email link">Email,</a>
-    <a href="www.linkedin.com/in/karim-m-hamdi-b84617267"alt="linkedin link">linkedin</a>
-    <a href="https://github.com/Thor66-pk"alt="github link">Github</a>
+<body>
+    <header class="header">
+        <div class="container nav">
+            <a href="#home" class="logo">Karim<span> <M/H> </span></a>
 
-   
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+                ☰
+            </button>
 
-  
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">Aspiring Software Engineer</p>
+                    <h1>
+                        Hi, I'm <span>Karim M'hamdi</span><br />
+                        I build clean and responsive web experiences.
+                    </h1>
+                    <p class="hero-description">
+                        I'm a software development student focused on becoming a software
+                        engineer. I enjoy creating modern websites, improving my frontend
+                        skills, and building projects that solve real problems.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-card">
+                    <div class="profile-box">
+                        <img src="https://avatars.githubusercontent.com/u/241496426?s=400&u=ce0cc531425893292f19a54cc0f603cfb5eb8db9&v=4"
+                            alt="Karim M'hamdi profile picture" class="profile-image" />
+                        <h3>Karim M'hamdi</h3>
+                        <p>Software Development Student</p>
+                        <ul>
+                            <li>Based in Sheffield</li>
+                            <li>Focused on HTML, CSS, Git, VS Code, and JavaScript</li>
+                            <li>Working toward a career in software engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section reveal" id="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">About Me</p>
+                    <h2>Building my path into software engineering</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I am a software development student with a strong interest in web
+                            development and problem solving. My goal is to grow into a
+                            professional software engineer by building projects, learning best
+                            practices, and improving my technical skills every day.
+                        </p>
+                        <p>
+                            I enjoy creating responsive interfaces, writing clean code, and
+                            turning ideas into real websites. Right now, I am focused on
+                            strengthening my foundations in frontend development while
+                            continuing to learn more about JavaScript and testing.
+                        </p>
+                    </div>
+
+                    <div class="about-info">
+                        <div class="info-card">
+                            <h3>Education</h3>
+                            <p>Software Development Student</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Goal</h3>
+                            <p>Become a professional Software Engineer</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Current Focus</h3>
+                            <p>Frontend development, responsive design, JavaScript basics</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Location</h3>
+                            <p>Sheffield, UK</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section reveal" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">Skills</p>
+                    <h2>Technologies I use and continue to improve</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="devicon-html5-plain colored"></i>
+                        <span>HTML5</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="devicon-css3-plain colored"></i>
+                        <span>CSS3</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="devicon-git-plain colored"></i>
+                        <span>Git</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="devicon-github-original"></i>
+                        <span>GitHub</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="devicon-vscode-plain colored"></i>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section reveal" id="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">Projects</p>
+                    <h2>Some of the work I’ve built</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-tag">Featured Project</span>
+                            <h3>Manga Flow</h3>
+                            <p>
+                                A static manga browsing website built with HTML and CSS. It
+                                focuses on clean layout design, responsive structure, and a
+                                simple browsing experience.
+                            </p>
+                        </div>
+                        <div class="project-bottom">
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://kktech06.github.io/Manga-webpage/" target="_blank"
+                                    rel="noopener noreferrer">Live Demo</a>
+                                <a href="https://github.com/KKtech06/Manga-webpage" target="_blank"
+                                    rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-tag">Coming Soon</span>
+                            <h3>Future Portfolio Project</h3>
+                            <p>
+                                A placeholder for your next project. Replace this with another
+                                website, app, or software project as you continue building your
+                                portfolio.
+                            </p>
+                        </div>
+                        <div class="project-bottom">
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#">Live Demo</a>
+                                <a href="#">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-top">
+                            <span class="project-tag">Coming Soon</span>
+                            <h3>Frontend Practice Project</h3>
+                            <p>
+                                Another space for a future project. You can use this section for
+                                a landing page, dashboard, or interactive JavaScript website.
+                            </p>
+                        </div>
+                        <div class="project-bottom">
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#">Live Demo</a>
+                                <a href="#">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section reveal" id="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">Contact</p>
+                    <h2>Let’s connect</h2>
+                </div>
+
+                <div class="contact-box">
+                    <p>
+                        I’m currently building my skills and looking to grow as an aspiring
+                        software engineer. Feel free to reach out for collaboration,
+                        networking, or project opportunities.
+                    </p>
+
+                    <div class="contact-links">
+                        <a href="mailto:Karim.mhamdi1@outlook.com" class="btn btn-primary">Email Me</a>
+                        <a href="https://github.com/KKtech06" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-secondary">GitHub</a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-secondary">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 Karim M'hamdi. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
